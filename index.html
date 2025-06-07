@@ -252,6 +252,26 @@
             font-family: 'Caveat', cursive;
             font-weight: 500;
         }
+
+        .cta-link {
+            display: inline-block;
+            padding: 15px 30px;
+            font-family: 'Amatic SC', cursive;
+            font-size: 2em;
+            font-weight: 700;
+            color: #4a5a5a;
+            background: rgba(255, 212, 225, 0.8);
+            border: 3px solid #e8a0c4;
+            border-radius: 12px;
+            text-decoration: none;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .cta-link:hover {
+            transform: scale(1.05);
+        }
         
         .qr-placeholder {
             width: 160px;
@@ -279,7 +299,7 @@
             left: 10%;
             width: 250px;
             height: 300px;
-            opacity: 0.6;
+            opacity: 0.2;
             transform: rotate(-5deg);
         }
         
@@ -288,17 +308,17 @@
             right: 8%;
             width: 280px;
             height: 320px;
-            opacity: 0.5;
+            opacity: 0.2;
             transform: rotate(8deg) scaleX(-1);
         }
         
         .flower-single {
             top: 20%;
-            right: 5%;
-            width: 150px;
-            height: 180px;
-            opacity: 0.4;
-            transform: rotate(15deg);
+            right: -15px;
+            width: 220px;
+            /*height: 180px;*/
+            opacity: 0.2;
+            transform: rotate(320deg);
         }
         
         /* Media queries */
@@ -433,9 +453,9 @@
                     kostenfreies Kennenlern-<br>
                     gespräch sichern!
                 </div>
-                <div class="qr-placeholder">
-                    QR Code
-                </div>
+                <a href="https://calendly.com/enni-sonnenliebe" class="cta-link" target="_blank" rel="noopener">
+                    TERMIN VEREINBAREN
+                </a>
             </div>
         </section>
     </div>
